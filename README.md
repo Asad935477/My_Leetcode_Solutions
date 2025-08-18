@@ -1,3 +1,3 @@
 # My_Leetcode_Solutions
 
-leetcode solution for the problems i solve
+leetcode solution for the problems i solve using js
