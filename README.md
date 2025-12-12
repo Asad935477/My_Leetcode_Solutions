@@ -1,4 +1,4 @@
 # My_Leetcode_Solutions
 
-leetcode solution for the problems i solve using javascript
+leetcode solution for the DSA problems i solve using javascript
 
