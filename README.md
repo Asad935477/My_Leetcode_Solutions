@@ -1,3 +1,4 @@
 # My_Leetcode_Solutions
-leetcode solutions for the DSA programming problems I Solve Using the Js
+leetcode solutions for the DSA programming problems I Solve Using the Javascript
+
 
