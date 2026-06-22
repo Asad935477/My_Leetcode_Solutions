@@ -4,10 +4,7 @@
  * @return {string}
  */
 var addBinary = function(a, b) {
-    let i = a.length - 1;
-    let j = b.length - 1;
-    let carry = 0;
-    let result = [];
+    let i = a.length - 1; j = b.length - 1; carry = 0; result = [];
     
     while (i >= 0 || j >= 0 || carry > 0) {
         let sum = carry;
