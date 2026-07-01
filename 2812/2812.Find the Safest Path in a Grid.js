@@ -24,4 +24,16 @@ var maximumSafenessFactor = function(grid) {
             }
         }
     }
+
+        while (head < bfsQ.length) {
+        const [currR, currC] = bfsQ[head++];
+        for (const [dr, dc] of kOffsets) {
+            const nextR = currR + dr;
+            const nextC = currC + dc;
+            if (nextR >= 0 && nextR < rcTot && nextC >= 0 && nextC < rcTot && safenessGrid[nextR][nextC] === kUnvisited) {
+                safenessGrid[nextR][nextC] = safenessGrid[currR][currC] + 1;
+                bfsQ.push([nextR, nextC]);
+            }
+        }
+    }
 };
