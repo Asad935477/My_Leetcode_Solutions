@@ -36,4 +36,11 @@ var maximumSafenessFactor = function(grid) {
             }
         }
     }
+
+    const maxPq = new MaxPriorityQueue(x => x.safeness);
+    maxPq.enqueue({ safeness: safenessGrid[0][0], r: 0, c: 0 });
+
+    const isPosVisited = Array.from({ length: rcTot }, () => Array(rcTot).fill(false));
+    isPosVisited[0][0] = true;
+
 };
