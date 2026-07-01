@@ -11,4 +11,10 @@ var maximumSafenessFactor = function(grid) {
     if (thiefGrid[0][0] === kIsThief || thiefGrid[rcTot - 1][rcTot - 1] === kIsThief) {
         return 0;
     }
+
+    const safenessGrid = Array.from({ length: rcTot }, () => Array(rcTot).fill(kUnvisited));
+    const bfsQ = [];
+    let head = 0; 
+
+    
 };
