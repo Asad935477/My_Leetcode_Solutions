@@ -16,5 +16,12 @@ var maximumSafenessFactor = function(grid) {
     const bfsQ = [];
     let head = 0; 
 
-    
+        for (let r = 0; r < rcTot; r++) {
+        for (let c = 0; c < rcTot; c++) {
+            if (thiefGrid[r][c] === kIsThief) {
+                safenessGrid[r][c] = 0;
+                bfsQ.push([r, c]);
+            }
+        }
+    }
 };
