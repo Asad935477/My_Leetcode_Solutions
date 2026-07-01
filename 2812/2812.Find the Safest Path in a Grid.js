@@ -45,5 +45,23 @@ var maximumSafenessFactor = function(grid) {
 
      while (!maxPq.isEmpty()) {
         const item = maxPq.dequeue();
+ const { safeness: currSafeness, r: currR, c: currC } = item.element || item;
 
+        if (currR === rcTot - 1 && currC === rcTot - 1) {
+            return currSafeness;
+        }
+
+        for (const [dr, dc] of kOffsets) {
+            const nextR = currR + dr;
+            const nextC = currC + dc;
+
+            if (nextR >= 0 && nextR < rcTot && nextC >= 0 && nextC < rcTot && !isPosVisited[nextR][nextC]) {
+                isPosVisited[nextR][nextC] = true;
+                const pathSafeness = Math.min(currSafeness, safenessGrid[nextR][nextC]);
+                maxPq.enqueue({ safeness: pathSafeness, r: nextR, c: nextC });
+            }
+        }
+    }
+
+    return 0;
 };
