@@ -43,4 +43,7 @@ var maximumSafenessFactor = function(grid) {
     const isPosVisited = Array.from({ length: rcTot }, () => Array(rcTot).fill(false));
     isPosVisited[0][0] = true;
 
+     while (!maxPq.isEmpty()) {
+        const item = maxPq.dequeue();
+
 };
