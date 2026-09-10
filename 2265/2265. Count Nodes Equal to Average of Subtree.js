@@ -19,5 +19,11 @@ var averageOfSubtree = function(root) {
         if (node === null) {
             return [0, 0];
         }
+
+        const [leftSum, leftCount] = dfs(node.left);
+        const [rightSum, rightCount] = dfs(node.right);
+
+        const sum = leftSum + rightSum + node.val;
+        const count = leftCount + rightCount + 1;
     }
 };
