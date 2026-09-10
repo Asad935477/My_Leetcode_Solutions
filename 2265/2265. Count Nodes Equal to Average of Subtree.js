@@ -12,4 +12,7 @@
  * @return {number}
  */
 
-var averageOfSubtree
+var averageOfSubtree = function(root) {
+
+
+};
