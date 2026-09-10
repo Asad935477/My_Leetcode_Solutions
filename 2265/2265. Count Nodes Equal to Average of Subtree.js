@@ -13,6 +13,7 @@
  */
 
 var averageOfSubtree = function(root) {
+    let answer = 0;
 
 
 };
