@@ -15,5 +15,9 @@
 var averageOfSubtree = function(root) {
     let answer = 0;
 
-
+     function dfs(node) {
+        if (node === null) {
+            return [0, 0];
+        }
+    }
 };
