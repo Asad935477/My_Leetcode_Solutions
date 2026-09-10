@@ -11,3 +11,5 @@
  * @param {TreeNode} root
  * @return {number}
  */
+
+var averageOfSubtree
