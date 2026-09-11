@@ -4,8 +4,7 @@
  */
 
 var totalNumbers = function(digits) {
-        let set = new Set(); 
-        let n = digits.length;
+        let set = new Set();  n = digits.length;
 
         for(let i = 0; i < n; i++) {
         if(digits[i] === 0) {
