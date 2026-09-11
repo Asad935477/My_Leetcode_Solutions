@@ -33,4 +33,6 @@ var totalNumbers = function(digits) {
         }
     }
 
+        return set.size;
+
 };
