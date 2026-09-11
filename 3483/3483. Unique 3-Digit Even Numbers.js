@@ -3,4 +3,6 @@
  * @return {number}
  */
 
-var totalNumbers
+var totalNumbers = function(digits) {
+    
+};
