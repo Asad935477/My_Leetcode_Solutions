@@ -4,4 +4,6 @@
  * @return {boolean}
  */
 
-var isRectangleOverlap
+var isRectangleOverlap = function(rec1, rec2) {
+    
+};
