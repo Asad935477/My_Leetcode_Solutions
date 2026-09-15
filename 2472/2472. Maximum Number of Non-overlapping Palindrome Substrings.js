@@ -3,3 +3,4 @@
  * @param {number} k
  * @return {number}
  */
+var maxPalindromes 
