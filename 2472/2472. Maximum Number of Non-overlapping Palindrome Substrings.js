@@ -3,4 +3,6 @@
  * @param {number} k
  * @return {number}
  */
-var maxPalindromes 
+var maxPalindromes = function(s, k) {
+    
+};
