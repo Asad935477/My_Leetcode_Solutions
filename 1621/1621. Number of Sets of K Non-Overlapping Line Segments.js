@@ -3,15 +3,13 @@
  * @param {number} k
  * @return {number}
  */
-
 var numberOfSets = function(n, k) {
-    const MOD = 1000000007;
-    const  dp = Array.from(
+    const MOD = 1000000007; dp = Array.from(
         { length: n },
         () => new Array(k + 1).fill(0)
     );
 
-     for (let i = 0; i < n; i++) {
+    for (let i = 0; i < n; i++) {
         dp[i][0] = 1;
     }
 
@@ -24,4 +22,4 @@ var numberOfSets = function(n, k) {
         }
     }
     return dp[n - 1][k];
-}
+};
