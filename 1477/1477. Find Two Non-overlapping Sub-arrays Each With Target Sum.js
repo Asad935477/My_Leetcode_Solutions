@@ -5,12 +5,9 @@
  */
 var minSumOfLengths = function(arr, target) {
     const n = arr.length;
-
     const best = new Array(n).fill(Infinity);
 
-    let left = 0;
-    let sum = 0;
-    let answer = Infinity;
+    let left = 0;  sum = 0; answer = Infinity;
 
     for (let right = 0; right < n; right++) {
         sum += arr[right];
