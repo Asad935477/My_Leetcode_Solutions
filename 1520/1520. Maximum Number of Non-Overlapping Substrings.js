@@ -3,9 +3,7 @@
  * @return {string[]}
  */
 var maxNumOfSubstrings = function(s) {
-    const count = new Array(26).fill(0);
-    const first = new Array(26).fill(-1);
-    const last = new Array(26).fill(-1);
+    const count = new Array(26).fill(0); first = new Array(26).fill(-1); last = new Array(26).fill(-1);
 
     const order = [];
 
