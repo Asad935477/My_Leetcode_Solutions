@@ -8,3 +8,7 @@
  * @param {number} y2
  * @return {boolean}
  */
+
+var checkOverlap = function(radius, xCenter, yCenter, x1, y1, x2, y2) {
+    
+};
