@@ -4,3 +4,6 @@
  * @return {number[]}
  */
  
+var resultArray = function(nums, k) {
+    
+};
