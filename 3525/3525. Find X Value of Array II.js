@@ -4,6 +4,7 @@
  * @param {number[][]} queries
  * @return {number[]}
  */
+ 
 var resultArray = function(nums, k, queries) {
     let size = 1;
 
