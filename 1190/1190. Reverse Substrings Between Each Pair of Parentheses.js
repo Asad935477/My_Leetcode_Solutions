@@ -25,5 +25,12 @@ var reverseParentheses = function(s) {
         
 };
     return res.join('');
-
+function reverse(sb, start, end) {
+    while(start < end) {
+        let temp = sb[start];
+        sb[start] = sb[end];
+        sb[end] = temp;
+        start++;
+        end--;
+    }
 };
