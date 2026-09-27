@@ -4,5 +4,7 @@
  */
 
 var reverseParentheses = function(s) {
+    let st = [];
+    let res = [];
     
 };
