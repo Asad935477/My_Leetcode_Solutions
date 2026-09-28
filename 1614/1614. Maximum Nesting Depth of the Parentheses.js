@@ -11,11 +11,11 @@ for (const c of s) {
                 depth--;
                 continue;
             }
-        // Digits and operators
-        if (c !== '(') continue;
-        depth++;
-        // New max only possible after '('
-        if (depth > r) r = depth;
+            // Digits and operators
+            if (c !== '(') continue;
+            depth++;
+            // New max only possible after '('
+            if (depth > r) r = depth;
     
         }
 
