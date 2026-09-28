@@ -18,5 +18,5 @@ for (const c of s) {
             if (depth > r) r = depth;
     
         }
-
+    return r;
 };
