@@ -52,4 +52,7 @@ var hasValidPath = function(grid) {
         memo.set(state, validPath);
         return validPath;
     }
+
+    return searchPath(0, 0, 0);
+
 };
