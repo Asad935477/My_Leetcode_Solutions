@@ -15,6 +15,9 @@ var maxDepthAfterSplit = function(seq) {
             answer.push(currentGroup);
         }
 
+        currentGroup ^= 1;
 
     }
+        return answer;
+
 }
