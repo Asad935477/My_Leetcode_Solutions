@@ -9,9 +9,12 @@ var maxDepthAfterSplit = function(seq) {
 
     for (const bracket of seq) {
          if (bracket === '(') {
-       let currentGroup = 1;
-         answer.push(1 - currentGroup);
+            let currentGroup = 1;
+            answer.push(1 - currentGroup);
+        }else {
+            answer.push(currentGroup);
         }
+
 
     }
 }
