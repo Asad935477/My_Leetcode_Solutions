@@ -4,5 +4,6 @@
  */
 
 var maxDepthAfterSplit = function(seq) {
+    const answer = [];
 
 }
