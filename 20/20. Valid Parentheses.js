@@ -9,4 +9,17 @@ var isValid = function(s) {
     const stack = new Array(s.length);
     let head = 0;
 
+    for (const c of s) {
+        if (c === '(') {
+            stack[head++] = ')';
+        } else if (c === '{') {
+            stack[head++] = '}';
+        } else if (c === '[') {
+            stack[head++] = ']';
+        } else {
+            if (head === 0 || stack[--head] !== c) {
+                return false;
+            }
+        }
+    }
 };
