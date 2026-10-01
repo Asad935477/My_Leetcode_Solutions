@@ -3,4 +3,6 @@
  * @return {boolean}
  */
 
-var isValid
+var isValid = function(s) {
+    
+};
