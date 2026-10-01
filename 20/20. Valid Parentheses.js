@@ -22,4 +22,7 @@ var isValid = function(s) {
             }
         }
     }
+
+        return head === 0;
+
 };
