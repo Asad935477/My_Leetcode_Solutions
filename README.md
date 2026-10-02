@@ -1,2 +1,3 @@
 # My_Leetcode_Solutions
-Leetcode Solutions For DSA Problems I Solve Using The JavaScript and typescrip
+Leetcode Solutions For DSA Problems I Solve Using The JavaScript and typescript lang
+
