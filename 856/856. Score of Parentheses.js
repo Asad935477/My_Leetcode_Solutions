@@ -12,7 +12,9 @@ var scoreOfParentheses= function(s) {
             st.push(res);
             res = 0;
         }
-         
+        else {
+            res = st.pop() + Math.max(res * 2, 1);
+        } 
     }
 
 
