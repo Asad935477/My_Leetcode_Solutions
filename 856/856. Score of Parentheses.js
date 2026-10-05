@@ -3,4 +3,6 @@
  * @return {number}
  */
 
-var scoreOfParentheses
+var scoreOfParentheses= function(s) {
+    
+};
