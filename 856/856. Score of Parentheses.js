@@ -15,6 +15,9 @@ var scoreOfParentheses= function(s) {
         else {
             res = st.pop() + Math.max(res * 2, 1);
         } 
+
+            return res;
+
     }
 
 
