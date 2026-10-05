@@ -8,7 +8,11 @@ var scoreOfParentheses= function(s) {
     let res = 0;
 
     for(let ch of s) {
-        
+       if(ch === '(') {
+            st.push(res);
+            res = 0;
+        }
+         
     }
 
 
