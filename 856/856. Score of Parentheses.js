@@ -5,5 +5,6 @@
 
 var scoreOfParentheses= function(s) {
     let st = [];
+    let res = 0;
 
 };
