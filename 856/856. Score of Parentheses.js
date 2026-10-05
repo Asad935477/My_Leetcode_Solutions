@@ -7,4 +7,9 @@ var scoreOfParentheses= function(s) {
     let st = [];
     let res = 0;
 
+    for(let ch of s) {
+        
+    }
+
+
 };
