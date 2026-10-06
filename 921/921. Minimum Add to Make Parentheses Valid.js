@@ -3,3 +3,4 @@
  * @return {number}
  */
 
+var minAddToMakeValid 
