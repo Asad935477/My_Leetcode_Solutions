@@ -3,4 +3,6 @@
  * @return {number}
  */
 
-var minAddToMakeValid 
+var minAddToMakeValid = function(s) {
+    
+};
