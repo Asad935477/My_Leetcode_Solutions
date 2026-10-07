@@ -28,5 +28,9 @@ function remove(s, ans, i, j, p) {
 
     const rev = s.split('').reverse().join('');
 
-
+    if (p[0] === '(') {
+        remove(rev, ans, 0, 0, [')', '(']);
+    } else {
+        ans.push(rev);
+    }
 }
