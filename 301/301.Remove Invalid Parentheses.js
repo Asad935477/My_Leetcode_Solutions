@@ -3,4 +3,6 @@
  * @return {string[]}
  */
 
-var removeInvalidParentheses 
+var removeInvalidParentheses = function(s) {
+    
+};
