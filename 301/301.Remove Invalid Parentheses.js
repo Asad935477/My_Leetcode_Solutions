@@ -26,5 +26,7 @@ function remove(s, ans, i, j, p) {
         }
     }
 
+    const rev = s.split('').reverse().join('');
+
 
 }
