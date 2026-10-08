@@ -10,6 +10,7 @@ var removeInvalidParentheses = function(s) {
 };
 
 function remove(s, ans, i, j, p) {
+    
     let count = 0;
 
     for (let k = i; k < s.length; k++) {
