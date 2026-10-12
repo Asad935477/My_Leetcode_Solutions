@@ -4,4 +4,6 @@
  * @return {number}
  */
 
-var maxSum
+var maxSum = function(nums, k) {
+   
+};
