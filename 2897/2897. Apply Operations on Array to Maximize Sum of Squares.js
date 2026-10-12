@@ -23,5 +23,7 @@ var maxSum = function(nums, k) {
         }
         ans = (ans + x * x) % mod;
     }
+    
+    return Number(ans);
 
 };
