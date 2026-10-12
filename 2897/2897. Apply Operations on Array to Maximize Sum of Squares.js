@@ -3,3 +3,5 @@
  * @param {number} k
  * @return {number}
  */
+
+var maxSum
