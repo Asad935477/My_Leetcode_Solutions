@@ -6,5 +6,6 @@
 
 var maxSumOfSquares = function(num, sum) {
     if (sum > 9 * num) return "";
+    let q = Math.floor(sum / 9);
 
 }
