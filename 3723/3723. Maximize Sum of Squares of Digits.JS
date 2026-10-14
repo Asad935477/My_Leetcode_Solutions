@@ -4,4 +4,6 @@
  * @return {string}
  */
 
-var maxSumOfSquares
+var maxSumOfSquares = function(num, sum) {
+
+}
