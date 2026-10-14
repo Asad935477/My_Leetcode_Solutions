@@ -3,3 +3,5 @@
  * @param {number} sum
  * @return {string}
  */
+
+var maxSumOfSquares
