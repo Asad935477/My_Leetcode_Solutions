@@ -5,5 +5,6 @@
  */
 
 var maxSumOfSquares = function(num, sum) {
+    if (sum > 9 * num) return "";
 
 }
