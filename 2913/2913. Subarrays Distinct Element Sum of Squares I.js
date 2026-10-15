@@ -4,6 +4,7 @@
  */
 
 var sumCounts = function(nums) {
+    const n = nums.length;
 
 
 };
