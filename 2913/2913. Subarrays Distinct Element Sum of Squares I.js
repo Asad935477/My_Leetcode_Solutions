@@ -3,4 +3,7 @@
  * @return {number}
  */
 
-var sumCounts
+var sumCounts = function(nums) {
+
+
+};
