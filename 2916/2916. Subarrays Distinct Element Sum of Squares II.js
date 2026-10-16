@@ -37,5 +37,7 @@ var sumCounts = function(nums) {
         last[nums[i]] = i;
         ans = (ans + (q[1] % MOD)) % MOD;
     }
+    
+    return ans;
 
 };
