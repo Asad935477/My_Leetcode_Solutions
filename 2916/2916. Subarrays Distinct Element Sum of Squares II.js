@@ -31,6 +31,7 @@ var sumCounts = function(nums) {
     }  
 
     const last = new Array(100001).fill(-1);
+    let ans = 0;
 
 
 };
