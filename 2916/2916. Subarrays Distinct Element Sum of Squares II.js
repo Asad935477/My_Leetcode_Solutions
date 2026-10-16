@@ -32,6 +32,10 @@ var sumCounts = function(nums) {
 
     const last = new Array(100001).fill(-1);
     let ans = 0;
-
+    for (let i = 0; i < n; i++) {
+        upd(1, 0, n - 1, last[nums[i]] + 1, i);
+        last[nums[i]] = i;
+        ans = (ans + (q[1] % MOD)) % MOD;
+    }
 
 };
