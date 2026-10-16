@@ -15,7 +15,7 @@ var sumCounts = function(nums) {
         s[o] += k * len;
         lz[o] += k;
     }  
-    
+
     function upd(o, l, r, L, R) {
         if (L <= l && r <= R) { app(o, r - l + 1, 1); return; }
         const m = (l + r) >> 1;
@@ -29,4 +29,8 @@ var sumCounts = function(nums) {
         s[o] = s[2 * o] + s[2 * o + 1];
         q[o] = q[2 * o] + q[2 * o + 1];
     }  
+
+    const last = new Array(100001).fill(-1);
+
+
 };
