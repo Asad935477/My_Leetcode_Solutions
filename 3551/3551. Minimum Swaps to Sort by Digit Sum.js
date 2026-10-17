@@ -13,5 +13,9 @@ var minSwaps = function(nums) {
         return s;
     };
     const n = nums.length;
-
+    const sorted = [...nums].sort((a, b) => {
+        const sa = digitSum(a), sb = digitSum(b);
+        if (sa !== sb) return sa - sb;
+        return a - b;
+    });
 };
