@@ -3,4 +3,6 @@
  * @return {number}
  */
 
-var minSwaps
+var minSwaps = function(nums) {
+
+};
