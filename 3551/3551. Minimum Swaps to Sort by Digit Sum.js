@@ -12,4 +12,6 @@ var minSwaps = function(nums) {
         }
         return s;
     };
+    const n = nums.length;
+
 };
