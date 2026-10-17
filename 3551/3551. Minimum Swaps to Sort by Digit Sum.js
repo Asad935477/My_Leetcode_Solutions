@@ -18,4 +18,6 @@ var minSwaps = function(nums) {
         if (sa !== sb) return sa - sb;
         return a - b;
     });
+    const pos = new Map();
+
 };
