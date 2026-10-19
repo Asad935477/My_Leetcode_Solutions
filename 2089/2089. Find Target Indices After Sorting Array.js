@@ -4,4 +4,6 @@
  * @return {number[]}
  */
 
-var targetIndices
+var targetIndices = function(nums, target) {
+    
+};
