@@ -6,5 +6,8 @@
 
 var targetIndices = function(nums, target) {
     let less = 0, equal = 0;
+    for (const x of nums) {
+        if (x < target) less++;
 
+    };
 };
