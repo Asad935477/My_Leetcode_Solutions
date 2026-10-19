@@ -9,6 +9,7 @@ var targetIndices = function(nums, target) {
     for (const x of nums) {
         if (x < target) less++;
         else if (x === target) equal++;
-
     };
+    const ans = [];
+
 };
