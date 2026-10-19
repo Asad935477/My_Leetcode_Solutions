@@ -12,5 +12,5 @@ var targetIndices = function(nums, target) {
     };
     const ans = [];
     for (let i = less; i < less + equal; i++) ans.push(i);
-
+    return ans;
 };
