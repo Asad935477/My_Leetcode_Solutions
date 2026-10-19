@@ -5,5 +5,6 @@
  */
 
 var targetIndices = function(nums, target) {
-    
+    let less = 0, equal = 0;
+
 };
