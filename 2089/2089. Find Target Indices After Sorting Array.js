@@ -11,5 +11,6 @@ var targetIndices = function(nums, target) {
         else if (x === target) equal++;
     };
     const ans = [];
+    for (let i = less; i < less + equal; i++) ans.push(i);
 
 };
