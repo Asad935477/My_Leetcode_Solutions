@@ -1,2 +1,2 @@
 # My_Leetcode_Solutions
-Leetcode Solutions For DSA Problems I Solve Using The JS and Ts language
+Leetcode Solutions For DSA Problems I Solve Using The JS and TS Prog language
