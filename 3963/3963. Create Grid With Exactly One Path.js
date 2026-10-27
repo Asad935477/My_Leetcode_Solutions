@@ -4,4 +4,6 @@
  * @return {string[]}
  */
 
-var createGrid
+var createGrid = function(m, n) {
+    
+};
