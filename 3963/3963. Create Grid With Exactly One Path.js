@@ -3,3 +3,5 @@
  * @param {number} n
  * @return {string[]}
  */
+
+var createGrid
