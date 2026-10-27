@@ -6,5 +6,6 @@
 
 var createGrid = function(m, n) {
     const grid = Array(m).fill('.'.padStart(n, '#'));  
+    grid[0] = '.'.repeat(n); 
 
 };
