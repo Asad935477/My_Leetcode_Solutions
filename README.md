@@ -1,2 +1,2 @@
 # My_Leetcode_Solutions
-Leetcode Solutions For DSA Problems I Solve Using BS and TS Prog language
+Leetcode Solutions For DSA Problems I Solve Using BoS and TS Prog language
