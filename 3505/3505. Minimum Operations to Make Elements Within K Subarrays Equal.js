@@ -4,3 +4,4 @@
  * @param {number} k
  * @return {number}
  */
+var minOperations 
