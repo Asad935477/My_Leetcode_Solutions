@@ -4,4 +4,6 @@
  * @param {number} k
  * @return {number}
  */
-var minOperations 
+var minOperations = function(nums, x, k) {
+
+};
