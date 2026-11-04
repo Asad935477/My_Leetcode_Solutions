@@ -5,5 +5,7 @@
  * @return {number}
  */
 var minOperations = function(nums, x, k) {
+    const n = nums.length;
+    const sorted = Int32Array.from(nums).sort();
 
 };
